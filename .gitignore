@@ -1,0 +1,76 @@
+######################
+# Project Specific
+######################
+*/build
+/build
+*/dist
+*/**/coverage
+/out
+
+######################
+# Node
+######################
+*/**/node_modules
+/node_modules
+!semantic/dist/
+
+######################
+# Intellij
+######################
+.idea
+.idea/**
+*/.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+
+######################
+# gradle
+######################
+.gradle/**
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# migrated change
+######################
+test-results
+.project
+*.swp
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled class file
+*.class
